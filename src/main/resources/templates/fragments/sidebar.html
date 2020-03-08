@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+			<nav class="sidebar sidebar-open" th:fragment="nav-sidebar">
+				<ul class="nav nav-pills">
+					<li class="nav-item"><a class="nav-link " href="/"> <i
+							class="oi oi-home"></i> <span>Home</span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active" >Compras</span></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/compras/cadastrar"> <i class="oi oi-plus"></i> <span>Cadastrar</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/compras/listar"> <i class="oi oi-spreadsheet"></i>
+							<span>Listar </span>
+					</a></li>
+				</ul>
+				
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active" >Estoque</span></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/estoques/importar"> <i class="oi oi-plus"></i> <span>Importar</span>
+					</a></li>
+					<li class="nav-item">
+						<a class="nav-link"
+						href="/estoques/listar"> <i class="oi oi-spreadsheet"></i>
+							<span>Listar </span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"
+						href="/estoques/listarBaixado"> <i class="oi oi-spreadsheet"></i>
+							<span>Listar Baixados </span>
+						</a>
+					</li>
+				</ul>
+				
+			</nav>
+</body>
+</html>
