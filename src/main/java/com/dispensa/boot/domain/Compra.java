@@ -41,7 +41,7 @@ public class Compra extends AbstractEntidy<Long> {
 	public FormaPagamento formaPagamento;
 	
 	@NumberFormat(style = Style.CURRENCY, pattern = "#,##0.00")
-	@Column(name= "valor_tributo", nullable = false, columnDefinition = "DECIMAL(7,2) DEFAULT 0.00")
+	@Column(name= "valor_tributo", nullable = true, columnDefinition = "DECIMAL(7,2) DEFAULT 0.00")
 	private BigDecimal valorTributo;
 	
 

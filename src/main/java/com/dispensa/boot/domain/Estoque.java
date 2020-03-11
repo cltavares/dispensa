@@ -21,7 +21,7 @@ public class Estoque extends AbstractEntidy<Long> {
 	public ItensCompra itensCompra;
 	
 	@DateTimeFormat(iso = ISO.DATE)
-	@Column(name= "data_retirada", nullable = false, columnDefinition = "DATE")
+	@Column(name= "data_retirada", nullable = true, columnDefinition = "DATE")
 	private LocalDate dataRetirada;
 	
 	@Column(nullable = false, unique = true)
